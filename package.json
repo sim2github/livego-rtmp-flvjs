@@ -1,0 +1,43 @@
+{
+  "name": "livego-rtmp-flvjs",
+  "version": "1.0.0",
+  "description": "Flvjs player",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sim2github/livego-rtmp-flvjs.git"
+  },
+  "author": "Alexander V. Sergeyev <sim.on@ua.fm>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sim2github/livego-rtmp-flvjs/issues"
+  },
+  "homepage": "https://github.com/sim2github/livego-rtmp-flvjs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "autoprefixer": "^9.7.5",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.0.4",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss": "^7.0.27",
+    "postcss-csso": "^4.0.0",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "flv.js": "^1.5.0"
+  }
+}
