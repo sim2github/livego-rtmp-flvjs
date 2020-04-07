@@ -30,8 +30,18 @@
   height: 100%;
 }
 
+#video-container button {
+  transition: all 0.2s ease-in-out;
+}
+
+#video-container button:hover {
+  transform: scale(1.1);
+}
+
 #video-container .arrow-right {
   box-sizing: border-box;
+  background-color: transparent;
+  cursor: pointer;
   display: block;
   margin-left: auto;
   margin-right: auto;
